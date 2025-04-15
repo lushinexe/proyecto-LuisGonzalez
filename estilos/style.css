@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration-line: none;
+}
+
+:root {
+    --main-color-1: #001427;
+    --main-color-2: #708d81;
+    --main-color-3: #f4d58d;
+    --main-color-4: #bf0603;
+    --main-color-5: #8d0801;
+    background-color: #f4d58d;
+}
+
+/***HEADER***/
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.titulos {
+    font-size: 100px;
+    text-align: center;
+    border: 5px solid;
+    border-color: #f4d58d;
+    border-width: 5px;
+    border-style: double;
+    font-family: "Tektur", sans-serif;
+}
+
+.logo {
+    width: 40px;
+    border-radius: 100px;
+    border-style: double;
+}
+
+.img__logo {
+    width: 40px;
+    border-radius: 100%;
+}
+
+.url:hover {
+    color: #8d0801;
+}
+
+.url {
+    color: #ffffff;
+    background-color:#001427;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/*boody section*/
+
+.vhcontainer {
+    height: 100vh;
+    display: flex;
+    margin-top: 45px;
+    align-items: center;
+}
+
+.logovh {
+    width: 500px;
+    border-radius: 500px;
+    border-style: double;
+}
+
+#main {
+    background-color: #708d81;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Tektur", sans-serif;
+    border-radius: 20px;
+    margin-top: 60px;
+}
+
+#mainp {
+    margin-top: 30px;
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+}
+
+.img {
+    border-radius: 10px;
+    width: 100px;
+}
+
+.principal {
+    font-family: "Tektur", sans-serif;
+    font-size: 20px;
+}
+
+.LushoBox {
+    font-size: 25px;
+    color: aliceblue;
+    text-shadow: rgb(25, 0, 255) 1px 0 10px;
+}
+
+/*FOOTER*/
+
+.parrafo-gps {
+    font-family: "Tektur", sans-serif;
+    font-size: 17px;
+}
+
+#map {
+    border-radius: 10px;
+    border: #8d0801;
+}
+
+.footer:hover {
+    color: aliceblue;
+}
+
+.footer {
+    color: #8d0801;
+}
+
+.boton {
+    padding: 10px 20px;
+    background-color: #8d0801;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*Cambios en las paginas*/
+
+.descripcion {
+    font-family: "Tektur", sans-serif;
+    font-size: 16px;
+    color: #001427;
+}
+
+.precio {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #708d81
+}
+
+.flexcontainer {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    background-color:#bf0603;
+    padding: 0 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.flexurl {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bannerrigth {
+    display: flex;
+    flex-direction: column;
+}
+    
+.bannerleft {
+    justify-content:center ;
+}
