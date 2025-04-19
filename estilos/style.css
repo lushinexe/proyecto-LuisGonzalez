@@ -23,6 +23,7 @@
     position: fixed;
     width: 100%;
     top: 0;
+    z-index: 9999;
 }
 
 .banner-container {
@@ -32,6 +33,14 @@
     width: 10%;
     background-color: white;
     border-radius: 20px;
+    margin-left: 20px;
+}
+
+.banner-account {
+   width: 10%;
+   display: flex;
+   justify-content: flex-end;
+   margin-right: 20px;
 }
 
 .logo {
@@ -64,43 +73,117 @@
     font-weight: 700;
 }
 
-.navbar-expand-lg .navbar-collapse {
+/*body*/
+
+.principal-vh {
+    height: 100vh;
     display: flex;
-    justify-content:space-around;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
 }
 
-.navbar-nav {
+.vhflex {
     display: flex;
-    position: fixed;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.img-carrusel {
+    width: 350px;
+    height: 350px;
+}
+
+.categorias {
+    display: flex;
+}
+
+.boton-categorias {
+    margin-top: 20px;
+}
+
+.img-logo {
+    border-radius: 10px;
+    width: 725px;
+    height: 400px;
+    border: 1px black solid;
+    transition: transform 0.3s ease;
+    margin: 15px;
+}
+
+.img-logo:hover {
+    transform: scale(1.023)
+}
+
+#categorias {
+    display: grid;
     width: 100%;
-    justify-content:center;
-    background-color: #7fbe37c2;
-    margin-top: 0px;
+    grid-template-areas:
+        "categoria-1 categoria-2"
+        "categoria-3 categoria-4"
+    ;
+    justify-content: center;
 }
 
-a.nav-link {
-    color: aliceblue;
-    font-weight: 450;
+.categoria-1 {
+    position: relative;
 }
 
-.navbar-expand-lg {
-    background-color:#7fbe37c2;
+.principal-1 {
+    font-family: "Tektur", sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 380px;
+    left: 105px;
+    background-color:chartreuse ;
+    padding: 5px;
+    border-radius: 15px;
 }
 
-div>.navbar-brand {
-    color: aliceblue;
-    font-weight: 450;
+.categoria-2 {
+    position: relative;
 }
 
-div>.navbar-nav {
-    display: flex;
-    justify-content: space-around;
-    width: 70%;
+.principal-2 {
+    font-family: "Tektur", sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 380px;
+    left: 105px;
+    background-color:chartreuse ;
+    padding: 5px;
+    border-radius: 15px;
 }
 
-.nav {
-    display: flex;
-    justify-content: space-around;
+.categoria-3 {
+    position: relative;
+}
+
+.principal-3 {
+    font-family: "Tektur", sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 380px;
+    left: 105px;
+    background-color:chartreuse ;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.categoria-4 {
+    position: relative;
+}
+
+.principal-4 {
+    font-family: "Tektur", sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 380px;
+    left: 105px;
+    background-color:chartreuse ;
+    padding: 5px;
+    border-radius: 15px;
 }
 
 .titulos {
@@ -125,13 +208,6 @@ div>.navbar-nav {
 
 /*boody section*/
 
-.vhcontainer {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    background-color: #001427;
-}
-
 .logovh {
     width: 500px;
     border-radius: 500px;
@@ -154,10 +230,6 @@ div>.navbar-nav {
     font-style: italic;
 }
 
-.img {
-    border-radius: 10px;
-    width: 100px;
-}
 
 .principal {
     font-family: "Tektur", sans-serif;
