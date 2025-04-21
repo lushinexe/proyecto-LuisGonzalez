@@ -215,7 +215,8 @@
 }
 
 #main {
-    background-color: #708d81;
+    background-color: black;
+    color: white;
     font-size: 50px;
     text-align: center;
     font-family: "Tektur", sans-serif;
@@ -244,9 +245,78 @@
 
 /*FOOTER*/
 
+.nav-footer {
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+}
+
+.logo-footer {
+    height: 50px;
+    margin-top: 40px;
+    transition: transform 0.3s ease;
+}
+
+.logo-footer:hover {
+    transform: scale(1.3);
+}
+
+.logo-footer-correccion {
+    height: 50px;
+    margin-top: 40px;
+    transition: transform 0.3s ease;
+}
+
+.logo-footer-correccion:hover {
+    transform: scale(1.3);
+}
+
+.logo-footer-correccion {
+    height: 50px;
+    margin-top: 40px;
+    border-radius: 75px;
+
+}
+
+.nav-logo-footer {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+#map {
+    width: 400px;
+    height: 200px;
+}
+
+.url-footer {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 25px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.footer{
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.footer-final {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 45px;
+}
+
 .parrafo-gps {
     font-family: "Tektur", sans-serif;
     font-size: 17px;
+    color: white;
 }
 
 #map {
@@ -255,20 +325,18 @@
 }
 
 .footer:hover {
-    color: aliceblue;
-}
-
-.footer {
     color: #8d0801;
 }
 
-.boton {
-    padding: 10px 20px;
-    background-color: #8d0801;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+.footer {
+    color: #ffffff;
+}
+
+.parrafo-marca {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
 }
 
 /*Cambios en las paginas*/
@@ -284,32 +352,4 @@
     font-weight: bold;
 }
 
-footer {
-    background-color: #708d81
-}
 
-.flexcontainer {
-    display: flex;
-    list-style: none;
-    align-items: center;
-    background-color:#bf0603;
-    padding: 0 20px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-}
-
-.flexurl {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.bannerrigth {
-    display: flex;
-    flex-direction: column;
-}
-    
-.bannerleft {
-    justify-content:center ;
-}
