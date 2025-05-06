@@ -1,0 +1,1819 @@
+@import "./base/reset";
+@import "./layout/header";
+@import "./components/carousel.scss";
+@import "./layout/vhprincipal";
+@import "./layout/footer";
+@import "./pages/home";
+@import "./pages/product";
+@import "./pages/contacto";
+
+@media screen and (max-width: 2100px) {
+    .banner-container {
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+        position: relative;
+    }
+
+    .list_chekbox {
+        display: none;
+    }
+
+    .list_chekbox:checked+.nav-principal {
+        height: calc(50vh - 54px);
+    }
+
+    .nav-cel {
+        width: 100%;
+        display: flex;
+        padding: 0px 10px;
+        justify-content: space-between;
+        padding: 7px 10px;
+    }
+
+    .nav-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .nav-principal {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+        align-items: center;
+    }
+
+    .nav-pgrande {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .list_icon {
+        display: none;
+    }
+
+    .nav-url {
+        font-size: 10px;
+    }
+
+    .vhflex {
+        width: 100%;
+    }
+
+    #main {
+        width: 100%;
+        font-size: 25px;
+
+    }
+
+    #mainp {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .img-logo {
+        width: 100%;
+        margin: 0px;
+        margin-top: 40px;
+    }
+
+    #categorias {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #categorias {
+        display: grid;
+        width: 100%;
+        grid-template-areas:
+            "categoria-1 categoria-2"
+            "categoria-3 categoria-4"
+        ;
+        justify-content: center;
+    }
+
+    .categoria-1 {
+        width: 95%;
+    }
+
+    .categoria-2 {
+        width: 95%;
+    }
+
+    .categoria-3 {
+        width: 95%;
+    }
+
+    .categoria-4 {
+        width: 95%;
+    }
+    .principal-1 {
+        font-size: 10px;
+        margin: 0px;
+        padding: 3px;
+        top: 327px;
+        left: 120px;
+    }
+
+    .principal-2 {
+        font-size: 10px;
+        margin: 0px;
+        padding: 3px;
+        top: 327px;
+        left: 120px;
+    }
+
+    .principal-3 {
+        font-size: 10px;
+        margin: 0px;
+        padding: 3px;
+        top: 327px;
+        left: 120px;
+    }
+
+    .principal-4 {
+        font-size: 10px;
+        margin: 0px;
+        padding: 3px;
+        top: 327px;
+        left: 120px;
+    }
+
+    .footer-nav {
+        width: 100%;
+    }
+
+
+    .nav-footer {
+        display: flex;
+        width: 100%;
+        margin-top: 150px;
+    }
+
+    .footer-final {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+
+    }
+
+    .nav-logo-footer {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0;
+        justify-content: space-around;
+    }
+
+    .url-footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer {
+        padding: 10px 25px;
+    }
+
+    .footer-responsive {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .parrafo-gps {
+        width: 320px;
+        font-size: 10px;
+        padding: 5px;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    #paginaslushobox {
+        margin: 0px;
+    }
+
+    #map {
+        width: 320px;
+        padding: 5px;
+    }
+
+    .paginas-gps {
+        font-size: 10px;
+        margin: 0px;
+        margin-top: 100px;
+    }
+
+    #gps {
+        margin: 0px;
+        width: 100%;
+        margin-top: 20px;
+        height: 1500px;
+    }
+
+    #paginaslushobox {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto auto;
+        gap: 30px;
+        align-items: first baseline;
+        justify-content: first baseline;
+        margin: 10px 10px;
+        grid-template-areas:
+            "gps item1 item2 item3"
+            "gps item4 item5 item6"
+            "gps item7 item7 item7"
+    }
+
+    .descripcion {
+        width: 300px;
+    }
+
+    .contacto-vh {
+        width: 100%;
+        margin-top: 54px;
+    }
+
+    .contacto-flex {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        align-items: baseline;
+        gap: 5%;
+    }
+
+    .contactos-predeterminados {
+        width: 40%;
+        padding: 0;
+    }
+
+    .info-relleno {
+        width: 50%;
+    }
+
+    .main-contacto {
+        width: 100%;
+
+    }
+
+    .informacion-cliente {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .informacion-cliente {
+        display: grid;
+        width: 100%;
+        margin-left: 10px;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto;
+        gap: 10px;
+        align-items: first baseline;
+        justify-content: first baseline;
+        grid-template-areas:
+            "info"
+            "nombre"
+            "correo"
+            "celular"
+            "mensaje"
+        ;
+    }
+
+    .nombre {
+        padding: 2px;
+        font-size: 10px;
+    }
+
+    .celular {
+        padding: 2px;
+        font-size: 10px;
+    }
+
+    .correo {
+        padding: 2px;
+        font-size: 10px;
+    }
+
+    .mensaje {
+        padding: 2px;
+        font-size: 10px;
+    }  
+}
+
+@media screen and (max-width: 1200px) {
+    .banner-container {
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+        position: relative;
+    }
+
+    .list_chekbox {
+        display: none;
+    }
+
+    .list_chekbox:checked+.nav-principal {
+        height: calc(50vh - 54px);
+    }
+
+    .nav-cel {
+        width: 100%;
+        display: flex;
+        padding: 0px 10px;
+        justify-content: space-between;
+        padding: 7px 10px;
+    }
+
+    .nav-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .nav-principal {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+        align-items: center;
+    }
+
+    .nav-pgrande {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .list_icon {
+        display: none;
+    }
+
+    .nav-url {
+        font-size: 10px;
+    }
+
+    .vhflex {
+        width: 100%;
+    }
+
+    #main {
+        width: 100%;
+        font-size: 25px;
+
+    }
+
+    #mainp {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .img-logo {
+        width: 100%;
+        margin: 0px;
+        margin-top: 40px;
+    }
+
+    #categorias {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #categorias {
+        display: grid;
+        width: 100%;
+        grid-template-areas:
+            "categoria-1 categoria-2"
+            "categoria-3 categoria-4"
+        ;
+        justify-content: center;
+    }
+
+    .categoria-1 {
+        width: 95%;
+    }
+
+    .categoria-2 {
+        width: 95%;
+    }
+
+    .categoria-3 {
+        width: 95%;
+    }
+
+    .categoria-4 {
+        width: 95%;
+    }
+    .principal-1 {
+        font-size: 10px;
+        margin: 0px;
+        padding: 3px;
+        top: 327px;
+        left: 120px;
+    }
+
+    .principal-2 {
+        font-size: 10px;
+        margin: 0px;
+        padding: 3px;
+        top: 327px;
+        left: 120px;
+    }
+
+    .principal-3 {
+        font-size: 10px;
+        margin: 0px;
+        padding: 3px;
+        top: 327px;
+        left: 120px;
+    }
+
+    .principal-4 {
+        font-size: 10px;
+        margin: 0px;
+        padding: 3px;
+        top: 327px;
+        left: 120px;
+    }
+
+    .footer-nav {
+        width: 100%;
+    }
+
+
+    .nav-footer {
+        display: flex;
+        width: 100%;
+        margin-top: 150px;
+    }
+
+    .footer-final {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+
+    }
+
+    .nav-logo-footer {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0;
+        justify-content: space-around;
+    }
+
+    .url-footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer {
+        padding: 10px 25px;
+    }
+
+    .footer-responsive {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .parrafo-gps {
+        width: 320px;
+        font-size: 10px;
+        padding: 5px;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    #paginaslushobox {
+        margin: 0px;
+    }
+
+    #map {
+        width: 320px;
+        padding: 5px;
+    }
+
+    .paginas-gps {
+        font-size: 10px;
+        margin: 0px;
+        margin-top: 100px;
+    }
+
+    #gps {
+        margin: 0px;
+        width: 100%;
+        margin-top: 20px;
+        height: 1500px;
+    }
+
+    #paginaslushobox {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto auto;
+        gap: 30px;
+        align-items: first baseline;
+        justify-content: first baseline;
+        margin: 10px 10px;
+        grid-template-areas:
+            "gps item1 item2 item3"
+            "gps item4 item5 item6"
+            "gps item7 item7 item7"
+    }
+
+    .descripcion {
+        width: 300px;
+    }
+
+    .contacto-vh {
+        width: 100%;
+        margin-top: 54px;
+    }
+
+    .contacto-flex {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        align-items: baseline;
+        gap: 5%;
+    }
+
+    .contactos-predeterminados {
+        width: 40%;
+        padding: 0;
+    }
+
+    .info-relleno {
+        width: 50%;
+    }
+
+    .main-contacto {
+        width: 100%;
+
+    }
+
+    .informacion-cliente {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .informacion-cliente {
+        display: grid;
+        width: 100%;
+        margin-left: 10px;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto;
+        gap: 10px;
+        align-items: first baseline;
+        justify-content: first baseline;
+        grid-template-areas:
+            "info"
+            "nombre"
+            "correo"
+            "celular"
+            "mensaje"
+        ;
+    }
+
+    .nombre {
+        padding: 2px;
+        font-size: 10px;
+    }
+
+    .celular {
+        padding: 2px;
+        font-size: 10px;
+    }
+
+    .correo {
+        padding: 2px;
+        font-size: 10px;
+    }
+
+    .mensaje {
+        padding: 2px;
+        font-size: 10px;
+    }  
+}
+
+@media screen and (max-width: 992px) {
+    .banner-container {
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+        position: relative;
+    }
+
+    .list_chekbox {
+        display: none;
+    }
+
+    .list_chekbox:checked+.nav-principal {
+        height: calc(50vh - 54px);
+    }
+
+    .nav-cel {
+        width: 100%;
+        display: flex;
+        padding: 0px 10px;
+        justify-content: space-between;
+        padding: 7px 10px;
+    }
+
+    .nav-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .nav-principal {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+        align-items: center;
+    }
+
+    .nav-pgrande {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: end;
+    }
+
+    .list_icon {
+        display: none;
+    }
+
+    .nav-url {
+        font-size: 10px;
+    }
+
+    .vhflex {
+        width: 100%;
+    }
+
+    #main {
+        width: 100%;
+        font-size: 25px;
+
+    }
+
+    #mainp {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .img-logo {
+        width: 100%;
+        margin: 0px;
+        margin-top: 40px;
+    }
+
+    #categorias {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #categorias {
+        display: grid;
+        width: 100%;
+        grid-template-areas:
+            "categoria-1 categoria-2"
+            "categoria-3 categoria-4"
+        ;
+        justify-content: center;
+    }
+
+    .categoria-1 {
+        width: 95%;
+    }
+
+    .categoria-2 {
+        width: 95%;
+    }
+
+    .categoria-3 {
+        width: 95%;
+    }
+
+    .categoria-4 {
+        width: 95%;
+    }
+    .principal-1 {
+        font-size: 10px;
+        margin: 0px;
+        padding: 3px;
+        top: 327px;
+        left: 120px;
+    }
+
+    .principal-2 {
+        font-size: 10px;
+        margin: 0px;
+        padding: 3px;
+        top: 327px;
+        left: 120px;
+    }
+
+    .principal-3 {
+        font-size: 10px;
+        margin: 0px;
+        padding: 3px;
+        top: 327px;
+        left: 120px;
+    }
+
+    .principal-4 {
+        font-size: 10px;
+        margin: 0px;
+        padding: 3px;
+        top: 327px;
+        left: 120px;
+    }
+
+    .footer-nav {
+        width: 100%;
+    }
+
+
+    .nav-footer {
+        display: flex;
+        width: 100%;
+        margin-top: 300px;
+    }
+
+    .footer-final {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+
+    }
+
+    .nav-logo-footer {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0;
+    }
+
+    .url-footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer {
+        padding: 10px 25px;
+    }
+
+    .footer-responsive {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .parrafo-gps {
+        width: 320px;
+        font-size: 10px;
+        padding: 5px;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    #paginaslushobox {
+        margin: 0px;
+    }
+
+    #map {
+        width: 320px;
+        padding: 5px;
+    }
+
+    .paginas-gps {
+        font-size: 10px;
+        margin: 0px;
+        margin-top: 100px;
+    }
+
+    #gps {
+        margin: 0px;
+        width: 100%;
+        margin-top: 20px;
+        height: auto;
+    }
+
+    #paginaslushobox {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto auto;
+        gap: 30px;
+        align-items: first baseline;
+        justify-content: first baseline;
+        margin: 10px 10px;
+        grid-template-areas:
+            "gps gps"
+            "item1 item2"
+            "item3 item4"
+            "item5 item6"
+            "item7 item7"
+    }
+
+    .descripcion {
+        width: 300px;
+    }
+
+    .contacto-vh {
+        width: 100%;
+        margin-top: 54px;
+    }
+
+    .contacto-flex {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        align-items: center;
+    }
+
+    .contactos-predeterminados {
+        width: 80%;
+        padding: 0;
+    }
+
+    .info-relleno {
+        width: 80%;
+    }
+
+    .main-contacto {
+        width: 100%;
+
+    }
+
+    .informacion-cliente {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .informacion-cliente {
+        display: grid;
+        width: 100%;
+        margin-left: 10px;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto;
+        gap: 10px;
+        align-items: first baseline;
+        justify-content: first baseline;
+        grid-template-areas:
+            "info"
+            "nombre"
+            "correo"
+            "celular"
+            "mensaje"
+        ;
+    }
+
+    .nombre {
+        padding: 2px;
+        font-size: 10px;
+    }
+
+    .celular {
+        padding: 2px;
+        font-size: 10px;
+    }
+
+    .correo {
+        padding: 2px;
+        font-size: 10px;
+    }
+
+    .mensaje {
+        padding: 2px;
+        font-size: 10px;
+    }  
+}
+
+@media screen and (max-width: 768px) {
+    .banner-container {
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+        position: relative;
+    }
+
+    .banner-account {
+        display: none;
+    }
+
+    .list_chekbox {
+        display: none;
+    }
+
+    .list_chekbox:checked+.nav-principal {
+        height: calc(50vh - 54px);
+    }
+
+    .nav-cel {
+        width: 100%;
+        display: flex;
+        padding: 0px 10px;
+        justify-content: space-between;
+        padding: 7px 10px;
+    }
+
+    .nav-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-principal {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        align-items: center;
+        position: absolute;
+        background-color: rgb(39, 39, 39);
+        top: 54px;
+        height: 0;
+        overflow: hidden;
+        gap: 5px;
+        left: 0;
+        transition: all 0.4s;
+
+    }
+
+    .list_icon {
+        display: block;
+        color: white;
+        cursor: pointer;
+    }
+
+    .nav-url {
+        font-size: 10px;
+    }
+
+    .vhflex {
+        width: 100%;
+    }
+
+    #main {
+        width: 100%;
+        font-size: 25px;
+
+    }
+
+    #mainp {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .img-logo {
+        margin: 0px;
+        margin-top: 40px;
+    }
+
+    #categorias {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #categorias {
+        display: grid;
+        width: 100%;
+        grid-template-areas:
+            "categoria-1"
+            "categoria-2"
+            "categoria-3"
+            "categoria-4"
+        ;
+        justify-content: center;
+        margin-bottom: 100px;
+        margin-top: 100px;
+    }
+
+    .categoria-1 {
+        width: 100%;
+    }
+
+    .categoria-2 {
+        width: 100%;
+    }
+
+    .categoria-3 {
+        width: 100%;
+    }
+
+    .categoria-4 {
+        width: 100%;
+    }
+    .principal-1 {
+        font-size: 10px;
+        margin: 0px;
+        padding: 3px;
+        top: 327px;
+        left: 120px;
+    }
+
+    .principal-2 {
+        font-size: 10px;
+        margin: 0px;
+        padding: 3px;
+        top: 327px;
+        left: 120px;
+    }
+
+    .principal-3 {
+        font-size: 10px;
+        margin: 0px;
+        padding: 3px;
+        top: 327px;
+        left: 120px;
+    }
+
+    .principal-4 {
+        font-size: 10px;
+        margin: 0px;
+        padding: 3px;
+        top: 327px;
+        left: 120px;
+    }
+
+    .footer-nav {
+        width: 100%;
+    }
+
+    .nav-footer {
+        display: flex;
+        width: 100%;
+        margin-top: 340px;
+    }
+
+    .footer-final {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+
+    }
+
+    .nav-logo-footer {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0;
+    }
+
+    .url-footer {
+        display: none;
+    }
+
+    .footer-responsive {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .parrafo-gps {
+        width: 320px;
+        font-size: 10px;
+        padding: 5px;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    #paginaslushobox {
+        margin: 0px;
+    }
+
+    #map {
+        width: 320px;
+        padding: 5px;
+    }
+
+    .paginas-gps {
+        font-size: 10px;
+        margin: 0px;
+        margin-top: 100px;
+    }
+
+    #gps {
+        margin: 0px;
+        width: 100%;
+        margin-top: 20px;
+        height: auto;
+    }
+
+    #paginaslushobox {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto auto;
+        gap: 30px;
+        align-items: first baseline;
+        justify-content: first baseline;
+        margin: 10px 10px;
+        grid-template-areas:
+            "gps gps"
+            "item1 item2"
+            "item3 item4"
+            "item5 item6"
+            "item7 item7"
+    }
+
+    .descripcion {
+        width: 300px;
+    }
+
+    .contacto-vh {
+        width: 100%;
+        margin-top: 54px;
+    }
+
+    .contacto-flex {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        align-items: center;
+    }
+
+    .contactos-predeterminados {
+        width: 80%;
+        padding: 0;
+    }
+
+    .info-relleno {
+        width: 80%;
+    }
+
+    .main-contacto {
+        width: 100%;
+
+    }
+
+    .informacion-cliente {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .informacion-cliente {
+        display: grid;
+        width: 100%;
+        margin-left: 10px;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto;
+        gap: 10px;
+        align-items: first baseline;
+        justify-content: first baseline;
+        grid-template-areas:
+            "info"
+            "nombre"
+            "correo"
+            "celular"
+            "mensaje"
+        ;
+    }
+
+    .nombre {
+        padding: 2px;
+        font-size: 10px;
+    }
+
+    .celular {
+        padding: 2px;
+        font-size: 10px;
+    }
+
+    .correo {
+        padding: 2px;
+        font-size: 10px;
+    }
+
+    .mensaje {
+        padding: 2px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .banner-container {
+        width: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+        position: relative;
+    }
+
+    .nombre-logo {
+        display: none;
+    }
+
+    .banner-account {
+        display: none;
+    }
+
+    .list_chekbox {
+        display: none;
+    }
+
+    .list_chekbox:checked+.nav-principal {
+        height: calc(50vh - 54px);
+    }
+
+    .nav-cel {
+        width: 100%;
+        display: flex;
+        padding: 0px 10px;
+        justify-content: space-between;
+        padding: 7px 10px;
+    }
+
+    .nav-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-principal {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        align-items: center;
+        position: absolute;
+        background-color: rgb(39, 39, 39);
+        top: 54px;
+        height: 0;
+        overflow: hidden;
+        gap: 5px;
+        left: 0;
+        transition: all 0.4s;
+
+    }
+
+    .list_icon {
+        display: block;
+        color: white;
+        cursor: pointer;
+    }
+
+    .nav-url {
+        font-size: 10px;
+    }
+
+    .vhflex {
+        width: 100%;
+    }
+
+    #main {
+        width: 100%;
+        font-size: 25px;
+
+    }
+
+    #mainp {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .img-logo {
+        margin: 0px;
+        margin-top: 40px;
+    }
+
+    #categorias {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #categorias {
+        display: grid;
+        width: 100%;
+        grid-template-areas:
+            "categoria-1"
+            "categoria-2"
+            "categoria-3"
+            "categoria-4"
+        ;
+        justify-content: center;
+        margin-bottom: 100px;
+        margin-top: 100px;
+    }
+
+    .categoria-1 {
+        width: 100%;
+    }
+
+    .categoria-2 {
+        width: 100%;
+    }
+
+    .categoria-3 {
+        width: 100%;
+    }
+
+    .categoria-4 {
+        width: 100%;
+    }
+    .principal-1 {
+        font-size: 10px;
+        margin: 0px;
+        padding: 3px;
+        top: 327px;
+        left: 120px;
+    }
+
+    .principal-2 {
+        font-size: 10px;
+        margin: 0px;
+        padding: 3px;
+        top: 327px;
+        left: 120px;
+    }
+
+    .principal-3 {
+        font-size: 10px;
+        margin: 0px;
+        padding: 3px;
+        top: 327px;
+        left: 120px;
+    }
+
+    .principal-4 {
+        font-size: 10px;
+        margin: 0px;
+        padding: 3px;
+        top: 327px;
+        left: 120px;
+    }
+
+    .footer-nav {
+        width: 100%;
+    }
+
+    .nav-footer {
+        display: flex;
+        width: 100%;
+        margin-top: 200px;
+    }
+
+    .nav-logo-footer {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .url-footer {
+        display: none;
+    }
+
+    .footer-responsive {
+        width: 100%;
+    }
+
+    .parrafo-gps {
+        width: 320px;
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    #paginaslushobox {
+        margin: 0px;
+    }
+
+    #map {
+        width: 300px;
+        padding: 5px;
+    }
+
+    .paginas-gps {
+        font-size: 10px;
+        margin: 0px;
+        margin-top: 100px;
+    }
+
+    #gps {
+        margin: 0px;
+        width: 100%;
+        margin-top: 20px;
+        height: auto;
+    }
+
+    #paginaslushobox {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto auto;
+        gap: 30px;
+        align-items: first baseline;
+        justify-content: first baseline;
+        margin: 10px 10px;
+        grid-template-areas:
+            "gps gps"
+            "item1 item2"
+            "item3 item4"
+            "item5 item6"
+            "item7 item7"
+    }
+
+    .descripcion {
+        width: 300px;
+    }
+
+    .info-contacto {
+        display: none;
+    }
+
+    .contacto-vh {
+        width: 100%;
+        margin-top: 54px;
+    }
+
+    .contacto-flex {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        align-items: center;
+    }
+
+    .contactos-predeterminados {
+        width: 75%;
+        padding: 5px;
+    }
+
+    .info-relleno {
+        width: 80%;
+    }
+
+    .main-contacto {
+        width: 100%;
+
+    }
+
+    .informacion-cliente {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .informacion-cliente {
+        display: grid;
+        width: 100%;
+        margin-left: 10px;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto;
+        gap: 10px;
+        align-items: first baseline;
+        justify-content: first baseline;
+        grid-template-areas:
+            "info"
+            "nombre"
+            "correo"
+            "celular"
+            "mensaje"
+        ;
+    }
+
+    .nombre {
+        padding: 2px;
+        font-size: 10px;
+    }
+
+    .celular {
+        padding: 2px;
+        font-size: 10px;
+    }
+
+    .correo {
+        padding: 2px;
+        font-size: 10px;
+    }
+
+    .mensaje {
+        padding: 2px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .banner-container {
+        width: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px;
+        position: relative;
+    }
+
+    .banner-account {
+        display: none;
+    }
+
+    .list_chekbox {
+        display: none;
+    }
+
+    .list_chekbox:checked+.nav-principal {
+        height: calc(50vh - 54px);
+    }
+
+    .nav-cel {
+        width: 100%;
+        display: flex;
+        padding: 0px 10px;
+        justify-content: space-between;
+        padding: 7px 10px;
+    }
+
+    .nav-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-principal {
+        width: 100%px;
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        align-items: center;
+        position: absolute;
+        background-color: rgb(39, 39, 39);
+        top: 54px;
+        height: 0;
+        overflow: hidden;
+        gap: 5px;
+        left: 0;
+        transition: all 0.4s;
+
+    }
+
+    .list_icon {
+        display: block;
+        color: white;
+        cursor: pointer;
+    }
+
+    .nav-url {
+        font-size: 10px;
+    }
+
+    .vhflex {
+        width: 100%;
+    }
+
+    #main {
+        width: 320px;
+        font-size: 25px;
+
+    }
+
+    #mainp {
+        width: 320px;
+        font-size: 14px;
+    }
+
+    .img-logo {
+        margin: 0px;
+        height: 200px;
+        width: 300px;
+        margin-top: 40px;
+    }
+
+    .img-carrusel {
+        width: 80%;
+        height: auto;
+    }
+
+    #categorias {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .categoria-1 {
+        width: 80%;
+    }
+
+    .principal-1 {
+        font-size: 10px;
+        margin: 0px;
+        padding: 3px;
+        top: 225px;
+        left: 25px;
+    }
+
+    .principal-2 {
+        font-size: 10px;
+        margin: 0px;
+        padding: 3px;
+        top: 225px;
+        left: 25px;
+    }
+
+    .principal-3 {
+        font-size: 10px;
+        margin: 0px;
+        padding: 3px;
+        top: 225px;
+        left: 25px;
+    }
+
+    .principal-4 {
+        font-size: 10px;
+        margin: 0px;
+        padding: 3px;
+        top: 225px;
+        left: 25px;
+    }
+
+    .footer-nav {
+        width: 320px;
+    }
+
+    .nav-footer {
+        display: flex;
+        width: 320px;
+    }
+
+    .nav-logo-footer {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .url-footer {
+        display: none;
+    }
+
+    .footer-responsive {
+        width: 320px;
+    }
+
+    .parrafo-gps {
+        width: 320px;
+        font-size: 10px;
+        padding: 5px;
+    }
+
+    #paginaslushobox {
+        margin: 0px;
+    }
+
+    #map {
+        width: 300px;
+        padding: 5px;
+    }
+
+    .mapa {
+        width: 80%;
+    }
+
+    .paginas-gps {
+        font-size: 10px;
+        margin: 0px;
+        margin-top: 100px;
+    }
+
+    #gps {
+        margin: 0px;
+        width: 300px;
+        margin-top: 20px;
+        height: auto;
+    }
+
+    #paginaslushobox {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto auto auto auto;
+        gap: 30px;
+        align-items: first baseline;
+        justify-content: first baseline;
+        margin-left: 10px;
+        grid-template-areas:
+            "gps"
+            "item1"
+            "item2"
+            "item3"
+            "item4"
+            "item5"
+            "item6"
+            "item7"
+    }
+
+    .descripcion {
+        width: 300px;
+    }
+
+    .nav-footer {
+        margin-top: 35px;
+    }
+
+    .footer-final {
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .contacto-vh {
+        width: 100%;
+        margin-top: 54px;
+    }
+
+    .contacto-flex {
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        padding: 0px;
+        margin: 0px;
+        margin-top: 0px;
+    }
+
+    .main-contacto {
+        display: none;
+    }
+
+    .nav-footer {
+        margin-top: 220px;
+    }
+
+    .informacion-cliente {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .informacion-cliente {
+        display: grid;
+        width: 100%;
+        margin-left: 0px;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto;
+        gap: 10px;
+        align-items: first baseline;
+        justify-content: first baseline;
+        grid-template-areas:
+            "info"
+            "nombre"
+            "correo"
+            "celular"
+            "mensaje"
+        ;
+    }
+
+    .nombre {
+        padding: 2px;
+        font-size: 10px;
+    }
+
+    .celular {
+        padding: 2px;
+        font-size: 10px;
+    }
+
+    .correo {
+        padding: 2px;
+        font-size: 10px;
+    }
+
+    .mensaje {
+        padding: 2px;
+        font-size: 10px;
+    }
+}

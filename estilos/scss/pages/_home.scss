@@ -1,0 +1,75 @@
+.categorias {
+    display: flex;
+}
+
+#categorias {
+    display: grid;
+    width: 100%;
+    grid-template-areas:
+        "categoria-1 categoria-2"
+        "categoria-3 categoria-4"
+    ;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.categoria-1 {
+    position: relative;
+}
+
+.principal-1 {
+    font-family: "Tektur", sans-serif;
+    font-size: 15px;
+    position: absolute;
+    top: 290px;
+    left: 70px;
+    background-color: chartreuse;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.categoria-2 {
+    position: relative;
+}
+
+.principal-2 {
+    font-family: "Tektur", sans-serif;
+    font-size: 15px;
+    position: absolute;
+    top: 290px;
+    left: 70px;
+    background-color: chartreuse;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.categoria-3 {
+    position: relative;
+}
+
+.principal-3 {
+    font-family: "Tektur", sans-serif;
+    font-size: 15px;
+    position: absolute;
+    top: 290px;
+    left: 70px;
+    background-color: chartreuse;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.categoria-4 {
+    position: relative;
+}
+
+.principal-4 {
+    font-family: "Tektur", sans-serif;
+    font-size: 15px;
+    position: absolute;
+    top: 290px;
+    left: 70px;
+    background-color: chartreuse;
+    padding: 5px;
+    border-radius: 15px;
+}

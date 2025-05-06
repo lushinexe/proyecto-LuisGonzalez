@@ -1,0 +1,68 @@
+.nav-container {
+    display: flex;
+    background-color: black;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.banner-account {
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.logo {
+    width: 40px;
+    border-radius: 100px;
+    margin-left: 10px;
+}
+
+.nav-principal {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.nav-url {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.nav-url:hover {
+    color: #8d0801;
+}
+
+.nombre-logo {
+    color: #001427;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.img-logo {
+    border-radius: 10px;
+    width: 500px;
+    height: 300px;
+    border: 1px black solid;
+    transition: transform 0.3s ease;
+    margin: 15px;
+}
+
+.img-logo:hover {
+    transform: scale(1.023)
+}

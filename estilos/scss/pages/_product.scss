@@ -1,0 +1,98 @@
+#paginaslushobox {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 30px;
+    align-items: first baseline;
+    justify-content: first baseline;
+    grid-template-areas:
+        "gps item1 item2 item3"
+        "gps item4 item5 item6"
+        "gps item7 item7 item7"
+
+}
+
+.item1 {
+    grid-area: item1;
+}
+
+.item2 {
+    grid-area: item2;
+}
+
+.item3 {
+    grid-area: item3;
+}
+
+.item4 {
+    grid-area: item4;
+}
+
+.item5 {
+    grid-area: item5;
+}
+
+.item6 {
+    grid-area: item6;
+}
+
+.item7 {
+    grid-area: item7;
+}
+
+.mapa {
+    grid-area: gps;
+}
+
+.descript {
+    position: relative;
+    margin-top: 30px;
+    display: block
+}
+
+#gps {
+    height: 1500px;
+    width: 250px;
+    margin-left: 25px;
+    border: 10px yellow solid;
+}
+
+.paginas-gps {
+    background-color: black;
+    color: white;
+    margin-left: 15px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.link-gps {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.link-gps:hover {
+    color: #8d0801;
+}
+
+.img-paginas {
+    height: 150px;
+    margin-top: 15px;
+}
+
+.img-paginas-correccion {
+    width: 200px;
+}
+
+.descripcion {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 450px;
+    font-family: "Tektur", sans-serif;
+    font-size: 16px;
+    color: #001427;
+}
+
+.precio {
+    font-size: 25px;
+    font-weight: bold;
+}

@@ -1,0 +1,24 @@
+.principal-vh {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.vhflex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.boton-vh {
+    margin-top: 20px;
+}
+
+.logovh {
+    width: 500px;
+    border-radius: 500px;
+    border-style: double;
+}
