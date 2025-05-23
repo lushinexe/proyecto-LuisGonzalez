@@ -587,8 +587,8 @@
     font-size: 25px;
   }
   .principial-vh .vhflex #carouselExampleSlidesOnly .carousel-inner .carousel-item .img-carrusel {
-    width: 700px;
-    height: auto;
+    width: 300px;
+    height: 300px;
   }
   #categorias {
     display: grid;
@@ -1214,7 +1214,7 @@
     font-size: 20px;
   }
   .principal-vh #carouselExampleSlidesOnly .carousel-inner .carousel-item .img-carrusel {
-    width: auto;
+    width: 300px;
     height: 300px;
   }
   #categorias {
