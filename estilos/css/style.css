@@ -586,6 +586,10 @@
     width: 100%;
     font-size: 25px;
   }
+  .principial-vh .vhflex #carouselExampleSlidesOnly .carousel-inner .carousel-item .img-carrusel {
+    width: 700px;
+    height: auto;
+  }
   #categorias {
     display: grid;
     width: 100%;
@@ -694,26 +698,86 @@
     margin-top: 20px;
     height: 1500px;
   }
+  #paginaslushobox .item1 .img-paginas {
+    height: 300px;
+    margin-top: 15px;
+  }
   #paginaslushobox .item1 .descript .descripcion {
+    width: 300px;
+    font-size: 20px;
+  }
+  #paginaslushobox .item2 .img-paginas {
+    height: 300px;
+    margin-top: 15px;
+  }
+  #paginaslushobox .item2 .img-paginas-correccion {
+    height: 300px;
+    margin-top: 15px;
     width: 300px;
   }
   #paginaslushobox .item2 .descript .descripcion {
     width: 300px;
+    font-size: 20px;
+  }
+  #paginaslushobox .item3 .img-paginas {
+    height: 300px;
+    margin-top: 15px;
+  }
+  #paginaslushobox .item3 .img-paginas-correccion {
+    height: 300px;
+    margin-top: 15px;
+    width: 300px;
   }
   #paginaslushobox .item3 .descript .descripcion {
+    width: 300px;
+    font-size: 20px;
+  }
+  #paginaslushobox .item4 .img-paginas {
+    height: 300px;
+    margin-top: 15px;
+  }
+  #paginaslushobox .item4 .img-paginas-correccion {
+    height: 300px;
+    margin-top: 15px;
     width: 300px;
   }
   #paginaslushobox .item4 .descript .descripcion {
     width: 300px;
+    font-size: 20px;
+  }
+  #paginaslushobox .item5 .img-paginas {
+    height: 300px;
+    margin-top: 15px;
+  }
+  #paginaslushobox .item5 .img-paginas-correccion {
+    height: 300px;
+    margin-top: 15px;
+    width: 300px;
   }
   #paginaslushobox .item5 .descript .descripcion {
+    width: 300px;
+    font-size: 20px;
+  }
+  #paginaslushobox .item6 .img-paginas {
+    height: 300px;
+    margin-top: 15px;
+  }
+  #paginaslushobox .item6 .img-paginas-correccion {
+    height: 300px;
+    margin-top: 15px;
     width: 300px;
   }
   #paginaslushobox .item6 .descript .descripcion {
     width: 300px;
+    font-size: 20px;
+  }
+  #paginaslushobox .item7 .img-paginas {
+    height: 300px;
+    margin-top: 15px;
   }
   #paginaslushobox .item7 .descript .descripcion {
     width: 300px;
+    font-size: 20px;
   }
   .contacto-vh {
     width: 100%;
@@ -841,9 +905,9 @@
     width: 100%;
     font-size: 20px;
   }
-  .principal-vh .vhflex .bannerrigth #carouselExampleSlidesOnly .carousel-inner .carousel-item .img-carrusel {
-    width: 350px;
-    height: 300px;
+  .principal-vh .vhflex #carouselExampleSlidesOnly .carousel-inner .carousel-item .img-carrusel {
+    width: 700px;
+    height: 500px;
   }
   #categorias {
     width: 100%;
@@ -1736,8 +1800,12 @@
     margin: 0px;
     position: relative;
   }
+  .nav-container .nav-cel .banner-container .logo {
+    margin-left: 20px;
+  }
   .nav-container .nav-cel .banner-container .nombre-logo {
     display: none;
+    background-color: black;
   }
   .nav-container .nav-cel .nav-pgrande .list_icon {
     display: block;
@@ -2083,7 +2151,7 @@
     font-size: 14px;
   }
   .principal-vh .vhflex #carouselExampleSlidesOnly .carousel-inner .carousel-item .img-carrusel {
-    width: auto;
+    width: 300px;
     height: 250px;
   }
   #categorias {
