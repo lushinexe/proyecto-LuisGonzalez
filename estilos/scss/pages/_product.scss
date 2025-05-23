@@ -8,91 +8,256 @@
     grid-template-areas:
         "gps item1 item2 item3"
         "gps item4 item5 item6"
-        "gps item7 item7 item7"
+        "gps item7 item7 item7";
 
-}
+    .mapa {
+        grid-area: gps;
 
-.item1 {
-    grid-area: item1;
-}
+        .paginas-gps {
+            background-color: black;
+            color: white;
+            margin-left: 15px;
+            padding: 5px;
+            border-radius: 20px;
+        }
 
-.item2 {
-    grid-area: item2;
-}
+        #gps {
+            height: 1500px;
+            width: 250px;
+            margin-left: 25px;
+            border: 10px yellow solid;
+        }
 
-.item3 {
-    grid-area: item3;
-}
+        .link-gps {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
 
-.item4 {
-    grid-area: item4;
-}
+            &:hover {
+                color: #8d0801;
+            }
+        }
+    }
 
-.item5 {
-    grid-area: item5;
-}
+    .item1 {
+        grid-area: item1;
 
-.item6 {
-    grid-area: item6;
-}
+        .descript {
+            position: relative;
+            margin-top: 30px;
+            display: block
+        }
 
-.item7 {
-    grid-area: item7;
-}
+        .descript {
 
-.mapa {
-    grid-area: gps;
-}
+            .descripcion {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                width: 450px;
+                font-family: "Tektur", sans-serif;
+                font-size: 16px;
+                color: #001427;
+            }
+        }
 
-.descript {
-    position: relative;
-    margin-top: 30px;
-    display: block
-}
+        .img-paginas {
+            height: 150px;
+            margin-top: 15px;
+        }
 
-#gps {
-    height: 1500px;
-    width: 250px;
-    margin-left: 25px;
-    border: 10px yellow solid;
-}
+        .precio {
+            font-size: 25px;
+            font-weight: bold;
+        }
+    }
 
-.paginas-gps {
-    background-color: black;
-    color: white;
-    margin-left: 15px;
-    padding: 5px;
-    border-radius: 20px;
-}
+    .item2 {
+        grid-area: item2;
 
-.link-gps {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-}
+        .descript {
+            position: relative;
+            margin-top: 30px;
+            display: block
+        }
 
-.link-gps:hover {
-    color: #8d0801;
-}
+        .descript {
 
-.img-paginas {
-    height: 150px;
-    margin-top: 15px;
-}
+            .descripcion {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                width: 450px;
+                font-family: "Tektur", sans-serif;
+                font-size: 16px;
+                color: #001427;
+            }
+        }
 
-.img-paginas-correccion {
-    width: 200px;
-}
+        .img-paginas-correccion {
+            width: 200px;
+        }
 
-.descripcion {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    width: 450px;
-    font-family: "Tektur", sans-serif;
-    font-size: 16px;
-    color: #001427;
-}
+        .precio {
+            font-size: 25px;
+            font-weight: bold;
+        }
+    }
 
-.precio {
-    font-size: 25px;
-    font-weight: bold;
+    .item3 {
+        grid-area: item3;
+
+        .descript {
+            position: relative;
+            margin-top: 30px;
+            display: block
+        }
+
+        .descript {
+
+            .descripcion {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                width: 450px;
+                font-family: "Tektur", sans-serif;
+                font-size: 16px;
+                color: #001427;
+            }
+        }
+
+        .img-paginas-correccion {
+            width: 200px;
+        }
+
+        .precio {
+            font-size: 25px;
+            font-weight: bold;
+        }
+    }
+
+    .item4 {
+        grid-area: item4;
+
+        .descript {
+            position: relative;
+            margin-top: 30px;
+            display: block
+        }
+
+        .descript {
+
+            .descripcion {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                width: 450px;
+                font-family: "Tektur", sans-serif;
+                font-size: 16px;
+                color: #001427;
+            }
+        }
+
+        .img-paginas-correccion {
+            width: 200px;
+        }
+
+        .precio {
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+    }
+
+    .item5 {
+        grid-area: item5;
+
+        .descript {
+            position: relative;
+            margin-top: 30px;
+            display: block
+        }
+
+        .descript {
+
+            .descripcion {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                width: 450px;
+                font-family: "Tektur", sans-serif;
+                font-size: 16px;
+                color: #001427;
+            }
+        }
+
+        .img-paginas {
+            height: 150px;
+            margin-top: 15px;
+        }
+
+        .precio {
+            font-size: 25px;
+            font-weight: bold;
+        }
+    }
+
+    .item6 {
+        grid-area: item6;
+
+        .descript {
+            position: relative;
+            margin-top: 30px;
+            display: block
+        }
+
+        .descript {
+
+            .descripcion {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                width: 450px;
+                font-family: "Tektur", sans-serif;
+                font-size: 16px;
+                color: #001427;
+            }
+        }
+
+        .img-paginas {
+            height: 150px;
+            margin-top: 15px;
+        }
+
+        .precio {
+            font-size: 25px;
+            font-weight: bold;
+        }
+    }
+
+    .item7 {
+        grid-area: item7;
+
+        .descript {
+            position: relative;
+            margin-top: 30px;
+            display: block
+        }
+
+        .descript {
+
+            .descripcion {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                width: 450px;
+                font-family: "Tektur", sans-serif;
+                font-size: 16px;
+                color: #001427;
+            }
+        }
+
+        .img-paginas {
+            height: 150px;
+            margin-top: 15px;
+        }
+
+        .precio {
+            font-size: 25px;
+            font-weight: bold;
+        }
+    }
+
 }

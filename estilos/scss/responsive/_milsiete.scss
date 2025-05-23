@@ -1,0 +1,382 @@
+@media screen and (max-width: 4000px) {
+
+    .nav-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .nav-cel {
+            width: 100%;
+            display: flex;
+            padding: 0px 10px;
+            justify-content: space-between;
+            padding: 7px 10px;
+
+            .banner-container {
+                width: 20%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0px;
+                position: relative;
+
+                .nombre-logo {
+
+                    font-size: 30px;
+                }
+
+                .logo {
+                    width: 70px;
+                }
+
+            }
+
+            .nav-pgrande {
+                width: 80%;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: end;
+
+                .nav-principal {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    padding: 0px;
+                    align-items: center;
+
+                    .nav-url {
+                        font-size: 17px;
+                    }
+                }
+
+                .banner-account {
+
+                    .logo {
+                        width: 70px;
+                    }
+                }
+            }
+        }
+    }
+
+    .principial-vh {
+        .vhflex {
+            width: 100%;
+
+            .bannerrigth {
+
+                #main {
+                    width: 100%;
+                    font-size: 14px;
+                }
+
+                #main {
+                    width: 100%;
+                    font-size: 25px;
+
+                }
+            }
+
+            #carouselExampleSlidesOnly {
+
+                .carousel-inner {
+
+                    .carousel-item {}
+                }
+            }
+        }
+    }
+
+    #categorias {
+        display: grid;
+        width: 100%;
+        grid-template-areas:
+            "categoria-1 categoria-2"
+            "categoria-3 categoria-4"
+        ;
+        justify-content: center;
+    }
+
+
+    #categorias {
+        width: 100%;
+        margin-left: 0;
+
+        .categoria-1 {
+            width: 95%;
+
+            .img-logo {
+                width: 100%;
+                margin: 0px;
+                margin-top: 40px;
+            }
+        }
+
+        .categoria-2 {
+            width: 95%;
+
+            .img-logo {
+                width: 100%;
+                margin: 0px;
+                margin-top: 40px;
+            }
+        }
+
+        .categoria-3 {
+            width: 95%;
+
+            .img-logo {
+                width: 100%;
+                margin: 0px;
+                margin-top: 40px;
+            }
+        }
+
+        .categoria-4 {
+            width: 95%;
+
+            .img-logo {
+                width: 100%;
+                margin: 0px;
+                margin-top: 40px;
+            }
+        }
+    }
+
+    .footer-principal {
+
+        .nav-footer {
+            display: flex;
+            width: 100%;
+            margin-top: 150px;
+
+            .footer-nav {
+                width: 100%;
+
+                .nav-logo-footer {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    margin: 0;
+                    justify-content: space-around;
+
+                    .url-footer {
+                        display: flex;
+                        justify-content: center;
+                    }
+                }
+            }
+
+            .footer-final {
+                display: flex;
+                flex-direction: column;
+                margin: 0;
+
+                .footer-responsive {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    width: 100%;
+
+                    .parrafo-gps {
+                        width: 320px;
+                        font-size: 10px;
+                        padding: 5px;
+                        margin-top: 50px;
+                        text-align: center;
+                    }
+
+                    #map {
+                        width: 320px;
+                        padding: 5px;
+                    }
+
+                }
+
+            }
+        }
+    }
+
+    #paginaslushobox {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto auto auto;
+        gap: 30px;
+        align-items: first baseline;
+        justify-content: first baseline;
+        margin: 10px 10px;
+        grid-template-areas:
+            "gps item1 item2 item3"
+            "gps item4 item5 item6"
+            "gps item7 item7 item7"
+    }
+
+    #paginaslushobox {
+        margin: 0px;
+
+        .mapa {
+
+            .paginas-gps {
+                font-size: 10px;
+                margin: 0px;
+                margin-top: 100px;
+            }
+
+            #gps {
+                margin: 0px;
+                width: 100%;
+                margin-top: 20px;
+                height: 1500px;
+            }
+        }
+
+        .item1 {
+
+            .descript {
+                .descripcion {
+                    width: 300px;
+                }
+            }
+        }
+
+        .item2 {
+
+            .descript {
+                .descripcion {
+                    width: 300px;
+                }
+            }
+        }
+
+        .item3 {
+
+            .descript {
+                .descripcion {
+                    width: 300px;
+                }
+            }
+        }
+
+        .item4 {
+
+            .descript {
+                .descripcion {
+                    width: 300px;
+                }
+            }
+        }
+
+        .item5 {
+
+            .descript {
+                .descripcion {
+                    width: 300px;
+                }
+            }
+        }
+
+        .item6 {
+
+            .descript {
+                .descripcion {
+                    width: 300px;
+                }
+            }
+        }
+
+        .item7 {
+
+            .descript {
+                .descripcion {
+                    width: 300px;
+                }
+            }
+        }
+    }
+
+    .contacto-vh {
+        width: 100%;
+        margin-top: 54px;
+
+        .h-principal {
+
+            .main-contacto {
+                width: 100%;
+
+            }
+        }
+
+        .contacto-flex {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            padding: 0px;
+            margin: 0px;
+            align-items: baseline;
+            gap: 5%;
+
+            .contactos-predeterminados {
+                width: 40%;
+                padding: 0;
+            }
+
+            .info-relleno {
+                width: 50%;
+
+                .informacion-cliente {
+                    margin: 0px;
+                    padding: 0px;
+                    display: grid;
+                    width: 100%;
+                    margin-left: 10px;
+                    grid-template-columns: auto;
+                    grid-template-rows: auto auto auto auto auto;
+                    gap: 10px;
+                    align-items: first baseline;
+                    justify-content: first baseline;
+                    grid-template-areas:
+                        "info"
+                        "nombre"
+                        "correo"
+                        "celular"
+                        "mensaje"
+                    ;
+
+                    .nombre {
+                        padding: 2px;
+                        font-size: 10px;
+                    }
+
+                    .celular {
+                        padding: 2px;
+                        font-size: 10px;
+                    }
+
+                    .correo {
+                        padding: 2px;
+                        font-size: 10px;
+                    }
+
+                    .mensaje {
+                        padding: 2px;
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .list_chekbox {
+        display: none;
+    }
+
+    .list_chekbox:checked+.nav-principal {
+        height: calc(50vh - 54px);
+    }
+
+    .list_icon {
+        display: none;
+    }
+}

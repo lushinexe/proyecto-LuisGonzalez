@@ -6,63 +6,65 @@
     width: 100%;
     top: 0;
     z-index: 9999;
-}
 
-.banner-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    border-radius: 20px;
-    margin-left: 20px;
-}
+    .nav-cel {
+        .banner-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            border-radius: 20px;
+            font-size: 14px;
 
-.banner-account {
-    width: 10%;
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 20px;
-}
+            .nombre-logo {
+                color: #001427;
+                text-decoration: none;
+                font-weight: 700;
+            }
 
-.logo {
-    width: 40px;
-    border-radius: 100px;
-    margin-left: 10px;
-}
+            .logo {
+                width: 40px;
+                border-radius: 100px;
+                margin-left: 10px;
+            }
 
-.nav-principal {
-    display: flex;
-    list-style: none;
-    width: 100%;
-    justify-content: space-around;
-}
+        }
+    }
 
-.nav-url {
-    text-decoration: none;
-    color: white;
-    padding: 5px;
-    margin-top: 10px;
-}
+    .nav-pgrande {
+        .banner-account {
+            width: 10%;
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 20px;
 
-.nav-url:hover {
-    color: #8d0801;
-}
+            .logo {
+                width: 40px;
+                border-radius: 100px;
+                margin-left: 10px;
 
-.nombre-logo {
-    color: #001427;
-    text-decoration: none;
-    font-weight: 700;
-}
+                @media screen and (max-width: 768px) {
+                    display: none;
+                }
+            }
+        }
 
-.img-logo {
-    border-radius: 10px;
-    width: 500px;
-    height: 300px;
-    border: 1px black solid;
-    transition: transform 0.3s ease;
-    margin: 15px;
-}
+        .nav-principal {
+            display: flex;
+            list-style: none;
+            width: 100%;
+            justify-content: space-around;
 
-.img-logo:hover {
-    transform: scale(1.023)
+            .nav-url {
+                text-decoration: none;
+                color: white;
+                padding: 5px;
+                margin-top: 10px;
+
+                &:hover {
+                    color: #8d0801;
+                }
+            }
+        }
+    }
 }

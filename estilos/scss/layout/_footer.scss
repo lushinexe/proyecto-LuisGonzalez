@@ -2,92 +2,77 @@
     display: flex;
     background-color: black;
     flex-direction: column;
-}
 
-.logo-footer {
-    height: 50px;
-    margin-top: 40px;
-    transition: transform 0.3s ease;
-}
+    .footer-nav {
+        .nav-logo-footer {
+            display: flex;
+            justify-content: space-around;
 
-.logo-footer:hover {
-    transform: scale(1.3);
-}
+            .logo-footer {
+                height: 50px;
+                margin-top: 40px;
+                transition: transform 0.3s ease;
+                &:hover {
+                    transform: scale(1.3);
+                }
+            }
 
-.logo-footer-correccion {
-    height: 50px;
-    margin-top: 40px;
-    transition: transform 0.3s ease;
-}
+            .logo-footer-correccion {
+                height: 50px;
+                margin-top: 40px;
+                border-radius: 75px;
+                transition: transform 0.3s ease;
+                &:hover {
+                    transform: scale(1.3);
+                }
+            }
+        }
 
-.logo-footer-correccion:hover {
-    transform: scale(1.3);
-}
+        .url-footer {
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            margin-top: 25px;
 
-.logo-footer-correccion {
-    height: 50px;
-    margin-top: 40px;
-    border-radius: 75px;
+            .footer {
+                text-decoration: none;
+                font-size: 15px;
+                color: #ffffff;
+                &:hover {
+                    color: #8d0801;
+                }
+            }
+        }
+    }
 
-}
+    .footer-final {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 45px;
 
-.nav-logo-footer {
-    display: flex;
-    justify-content: space-around;
-    margin-left: 500px;
-    margin-right: 500px;
-}
+        .footer-responsive {
+            .parrafo-gps {
+                font-family: "Tektur", sans-serif;
+                font-size: 17px;
+                color: white;
+            }
 
-#map {
-    width: 400px;
-    height: 200px;
-}
+            #map {
+                width: 400px;
+                height: 200px;
+                border-radius: 10px;
+                border: #8d0801;
+            }
+        }
+    }
 
-.url-footer {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    margin-top: 25px;
-    margin-left: 400px;
-    margin-right: 400px;
-}
-
-.footer {
-    text-decoration: none;
-    font-size: 15px;
-}
-
-.footer-final {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 400px;
-    margin-right: 400px;
-    margin-top: 45px;
-}
-
-.parrafo-gps {
-    font-family: "Tektur", sans-serif;
-    font-size: 17px;
-    color: white;
-}
-
-#map {
-    border-radius: 10px;
-    border: #8d0801;
-}
-
-.footer:hover {
-    color: #8d0801;
-}
-
-.footer {
-    color: #ffffff;
-}
-
-.parrafo-marca {
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
-    margin-top: 45px;
+    .marca {
+        .parrafo-marca {
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            margin-top: 45px;
+        }
+    }
 }

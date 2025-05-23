@@ -1,0 +1,470 @@
+@media screen and (max-width: 576px) {
+
+    .nav-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .nav-cel {
+            width: 100%;
+            display: flex;
+            padding: 0px 10px;
+            justify-content: space-between;
+            padding: 7px 10px;
+
+            .banner-container {
+                width: 15px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0px;
+                position: relative;
+
+                .nombre-logo {
+                    display: none;
+                }
+            }
+
+            .nav-pgrande {
+
+                .list_icon {
+                    display: block;
+                    color: white;
+                    cursor: pointer;
+                }
+
+                .list_chekbox {
+                    display: none;
+
+                    .list_chekbox:checked+.nav-principal {
+                        height: calc(50vh - 54px);
+                    }
+                }
+
+                .nav-principal {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    padding: 0px;
+                    align-items: center;
+                    position: absolute;
+                    background-color: rgb(39, 39, 39);
+                    top: 54px;
+                    height: 0;
+                    overflow: hidden;
+                    gap: 5px;
+                    left: 0;
+                    transition: all 0.4s;
+
+                    .nav-url {
+                        font-size: 10px;
+                    }
+
+                }
+
+                .banner-account {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .principal-vh {
+
+        .vhflex {
+            width: 100%;
+
+            .bannerrigth {
+                #main {
+                    width: 100%;
+                    font-size: 25px;
+                    margin-top: 50px
+                }
+
+                #mainp {
+                    width: 100%;
+                    font-size: 14px;
+                }
+            }
+
+            #carouselExampleSlidesOnly {
+
+                .carousel-inner {
+
+                    .carousel-item {
+
+                        .img-carrusel {
+                            width: auto;
+                            height: 250px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #categorias {
+        width: 100%;
+        margin-left: 0;
+        display: grid;
+        width: 100%;
+        grid-template-areas:
+            "categoria-1"
+            "categoria-2"
+            "categoria-3"
+            "categoria-4"
+        ;
+        justify-content: center;
+        margin-bottom: 100px;
+        margin-top: 100px;
+
+        .categoria-1 {
+            width: 100%;
+
+            .img-logo {
+                border-radius: 10px;
+                width: 90%;
+                height: auto;
+                border: 1px black solid;
+                transition: transform 0.3s ease;
+
+            }
+        }
+
+        .categoria-2 {
+            width: 100%;
+
+            #categorias .categoria-2 .img-logo {
+                border-radius: 10px;
+                width: 90%;
+                height: auto;
+                border: 1px black solid;
+                transition: transform 0.3s ease;
+                margin: 20px 5%;
+            }
+        }
+
+        .categoria-3 {
+            width: 100%;
+
+            #categorias .categoria-2 .img-logo {
+                border-radius: 10px;
+                width: 90%;
+                height: auto;
+                border: 1px black solid;
+                transition: transform 0.3s ease;
+                margin: 20px 5%;
+            }
+        }
+
+        .categoria-4 {
+            width: 100%;
+
+            #categorias .categoria-2 .img-logo {
+                border-radius: 10px;
+                width: 90%;
+                height: auto;
+                border: 1px black solid;
+                transition: transform 0.3s ease;
+                margin: 20px 5%;
+            }
+        }
+    }
+
+    .footer-principal {
+
+        .nav-footer {
+            display: flex;
+            width: 100%;
+            margin-top: 200px;
+
+            .footer-nav {
+                width: 100%;
+
+                .nav-logo-footer {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                }
+
+                .url-footer {
+
+                    display: none;
+
+                }
+
+                .footer-final {
+
+                    .footer-responsive {
+                        #map {
+                            width: 95%;
+                            height: 25%;
+                        }
+
+                        .parrafo-gps {
+                            width: 100%;
+                            font-size: 14px;
+                            padding: 5px;
+                            color: white;
+                        }
+
+                        .footer {
+                            text-decoration: none;
+                            color: white;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+    #paginaslushobox {
+        margin: 0px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto auto auto auto auto;
+        gap: 30px;
+        align-items: first baseline;
+        justify-content: first baseline;
+        margin: 0px 10px;
+        grid-template-areas:
+            "gps"
+            "item1"
+            "item2"
+            "item3"
+            "item4"
+            "item5"
+            "item6"
+            "item7";
+
+
+        .mapa {
+
+            .paginas-gps {
+                font-size: 10px;
+                margin: 0px;
+                margin-top: 100px;
+            }
+
+            #gps {
+                margin: 0px;
+                width: 100%;
+                margin-top: 20px;
+                height: auto;
+            }
+        }
+
+        .item1 {
+
+            .img-paginas {
+                height: 150px;
+                margin-top: 15px;
+
+            }
+
+            .descript {
+                .descripcion {
+                    width: 300px;
+                }
+            }
+        }
+
+        .item2 {
+
+            .img-paginas {
+                height: 150px;
+                margin-top: 15px;
+
+            }
+
+            .img-paginas-correccion {
+                height: 150px;
+                margin-top: 15px;
+
+            }
+
+            .descript {
+                .descripcion {
+                    width: 300px;
+                }
+            }
+        }
+
+        .item3 {
+
+            .img-paginas {
+                height: 150px;
+                margin-top: 15px;
+
+            }
+
+            .img-paginas-correccion {
+                height: 150px;
+                margin-top: 15px;
+
+            }
+
+            .descript {
+                .descripcion {
+                    width: 300px;
+                }
+            }
+        }
+
+        .item4 {
+
+            .img-paginas {
+                height: 150px;
+                margin-top: 15px;
+
+            }
+
+            .img-paginas-correccion {
+                height: 150px;
+                margin-top: 15px;
+
+            }
+
+            .descript {
+                .descripcion {
+                    width: 300px;
+                }
+            }
+        }
+
+        .item5 {
+
+            .img-paginas {
+                height: 150px;
+                margin-top: 15px;
+
+            }
+
+            .img-paginas-correccion {
+                height: 150px;
+                margin-top: 15px;
+
+            }
+
+            .descript {
+                .descripcion {
+                    width: 300px;
+                }
+            }
+        }
+
+        .item6 {
+
+            .img-paginas {
+                height: 150px;
+                margin-top: 15px;
+
+            }
+
+            .img-paginas-correccion {
+                height: 150px;
+                margin-top: 15px;
+
+            }
+
+            .descript {
+                .descripcion {
+                    width: 300px;
+                }
+            }
+        }
+
+        .item7 {
+
+            .img-paginas {
+                height: 150px;
+                margin-top: 15px;
+
+            }
+
+            .descript {
+                .descripcion {
+                    width: 300px;
+                }
+            }
+        }
+    }
+
+    .contacto-vh {
+        width: 100%;
+        margin-top: 54px;
+
+        .h-principal {
+
+            .main-contacto {
+                width: 100%;
+
+            }
+        }
+
+        .contacto-flex {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            padding: 0px;
+            margin: 0px;
+            align-items: center;
+
+            .contactos-predeterminados {
+                width: 90%;
+                padding: 5px;
+
+                .info-contacto {
+                    display: none;
+                }
+            }
+
+            .info-relleno {
+                width: 90%;
+
+                .informacion-cliente {
+                    margin: 0px;
+                    padding: 0px;
+                    display: grid;
+                    width: 100%;
+                    margin-left: 10px;
+                    grid-template-columns: auto;
+                    grid-template-rows: auto auto auto auto auto;
+                    gap: 10px;
+                    align-items: first baseline;
+                    justify-content: first baseline;
+                    grid-template-areas:
+                        "info"
+                        "nombre"
+                        "correo"
+                        "celular"
+                        "mensaje"
+                    ;
+
+                    .nombre {
+                        padding: 2px;
+                        font-size: 10px;
+                    }
+
+                    .celular {
+                        padding: 2px;
+                        font-size: 10px;
+                    }
+
+                    .correo {
+                        padding: 2px;
+                        font-size: 10px;
+                    }
+
+                    .mensaje {
+                        padding: 2px;
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+
+    }
+}

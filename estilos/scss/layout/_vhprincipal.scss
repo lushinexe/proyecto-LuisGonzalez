@@ -4,21 +4,34 @@
     align-items: center;
     justify-content: center;
     background-color: white;
-}
 
-.vhflex {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 25px;
-}
+    .vhflex {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 25px;
 
-.boton-vh {
-    margin-top: 20px;
-}
+        .boton-vh {
+            margin-top: 20px;
+        }
 
-.logovh {
-    width: 500px;
-    border-radius: 500px;
-    border-style: double;
+        .bannerrigth {
+            #main {
+                background-color: black;
+                color: white;
+                font-size: 50px;
+                text-align: center;
+                font-family: "Tektur", sans-serif;
+                border-radius: 20px;
+                margin-top: 60px;
+            }
+
+            #mainp {
+                margin-top: 30px;
+                font-size: 25px;
+                text-align: center;
+                font-style: italic;
+            }
+        }
+    }
 }

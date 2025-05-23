@@ -1,111 +1,119 @@
-#main {
-    background-color: black;
-    color: white;
-    font-size: 50px;
-    text-align: center;
-    font-family: "Tektur", sans-serif;
-    border-radius: 20px;
-    margin-top: 60px;
-}
-
-.main-contacto {
-    background-color: black;
-    color: white;
-    font-size: 20px;
-    text-align: center;
-    font-family: "Tektur", sans-serif;
-    border-radius: 20px;
-    margin-top: 60px;
-}
-
-#mainp {
-    margin-top: 30px;
-    font-size: 25px;
-    text-align: center;
-    font-style: italic;
-}
-
-.informacion-cliente {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto auto;
-    gap: 10px;
-    align-items: first baseline;
-    justify-content: first baseline;
-    grid-template-areas:
-        "info info info"
-        "nombre nombre nombre"
-        "correo correo celular"
-        "mensaje mensaje mensaje"
-    ;
-}
-
-.informacion-cliente {
-    grid-area: info;
-}
-
-.nombre {
-    grid-area: nombre;
-    height: 25px;
-    padding: 20px 20px;
-    background-color: rgb(227, 227, 227);
-}
-
-.celular {
-    grid-area: celular;
-    height: 25px;
-    padding: 20px 20px;
-    background-color: rgb(227, 227, 227);
-}
-
-.correo {
-    grid-area: correo;
-    height: 25px;
-    padding: 20px 20px;
-    background-color: rgb(227, 227, 227);
-}
-
-.mensaje {
-    grid-area: mensaje;
-    height: 100px;
-    padding: 5px 15px;
-    background-color: rgb(227, 227, 227);
-
-}
-
 .contacto-vh {
     display: flex;
     justify-content: space-around;
     height: 100vh;
     align-items: center;
     flex-wrap: wrap;
-}
 
-.contactos-predeterminados {
-    padding: 70px;
-}
+    .h-principal {
+        .main-contacto {
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-family: "Tektur", sans-serif;
+            border-radius: 20px;
+            margin-top: 60px;
+            font-size: 50px;
+            width: 450px;
 
-.contacto-flex {
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    margin-right: 200px;
-}
+            @media screen and (max-width: 768px) {
+                display: none;
+            }
+        }
+    }
 
-.img-contact {
-    height: 50px;
-    border-radius: 25px;
-}
+    .contacto-flex {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        margin-right: 200px;
 
-.descript-contact {
-    margin-top: 25px;
-}
+        .contactos-predeterminados {
+            padding: 70px;
 
-.contacto-parrafo {
-    list-style: none;
-}
+            .sass-1 {
+                .descript-contact {
+                    margin-top: 25px;
+                }
 
-.main-contacto {
-    font-size: 50px;
-    width: 450px;
+                .contacto-parrafo {
+                    list-style: none;
+                }
+            }
+
+            .sass-2 {
+                descript-contact {
+                    margin-top: 25px;
+                }
+
+                .logo-contacto {
+                    .img-contact {
+                        height: 50px;
+                        border-radius: 25px;
+                    }
+                }
+            }
+
+            .sass-3 {
+                descript-contact {
+                    margin-top: 25px;
+                }
+            }
+        }
+
+        .info-relleno {
+            descript-contact {
+                margin-top: 25px;
+            }
+
+            .informacion-cliente {
+                grid-area: info;
+
+                .nombre {
+                    grid-area: nombre;
+                    height: 25px;
+                    padding: 20px 20px;
+                    background-color: rgb(227, 227, 227);
+                }
+
+                .celular {
+                    grid-area: celular;
+                    height: 25px;
+                    padding: 20px 20px;
+                    background-color: rgb(227, 227, 227);
+                }
+
+                .correo {
+                    grid-area: correo;
+                    height: 25px;
+                    padding: 20px 20px;
+                    background-color: rgb(227, 227, 227);
+                }
+
+                .mensaje {
+                    grid-area: mensaje;
+                    height: 100px;
+                    padding: 5px 15px;
+                    background-color: rgb(227, 227, 227);
+
+                }
+
+            }
+
+            .informacion-cliente {
+                display: grid;
+                grid-template-columns: auto auto auto;
+                grid-template-rows: auto auto auto auto;
+                gap: 10px;
+                align-items: first baseline;
+                justify-content: first baseline;
+                grid-template-areas:
+                    "info info info"
+                    "nombre nombre nombre"
+                    "correo correo celular"
+                    "mensaje mensaje mensaje"
+                ;
+            }
+        }
+    }
 }
